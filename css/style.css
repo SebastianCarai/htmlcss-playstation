@@ -1,0 +1,108 @@
+/* COMMON */
+img{
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* Texts */
+.font_17{
+    font-size: 17px;
+}
+.light_bold_text{
+    font-weight: 600;
+}
+
+
+
+/* HEADER */
+header{
+    font-family: Helvetica, arial, sans-serif;
+    background-color: white;
+}
+/* Header Top */
+.header_top{
+    background-color: black;  
+    padding: 10px;
+}
+.sony_logo{
+    margin-left: calc(100% - 100px);
+    width: 100px;
+}
+
+/* Header Bottom */
+.header_bottom{
+    line-height: 80px;
+}
+.ps_logo{
+    height: 80px;
+    display: flex;
+}
+.ps_logo img{
+    margin:auto;
+    width: auto; 
+    height: 70px;
+}
+.header_bottom li{
+    display: inline-block;
+}
+.header_bottom ul a:first-child{
+    margin-left: 0;  /* Removing Margin-L to the first list element */
+}
+.header_right_nav{
+    text-align: right;
+}
+.header_menu_option{
+    color: black;  /* Nav item */
+    margin: 0 10px;
+}
+.arrow_down{
+    display: inline-block;
+    width: 10px;            /* gray arrow */
+    margin: 0 2px;
+}
+.arrow_down_hover{
+    display: none;
+}
+.header_menu_option:hover .arrow_down{
+    display: none;  /* Hover arrow effect  */
+}
+.header_menu_option:hover .arrow_down_hover{   
+    display: inline-block; /* Hover arrow effect  */
+}
+.ms_btn_dark{
+    border-radius: 50px;
+    color: white;
+    background-color: #363636; /* Login btn */
+    border-color: #363636;
+}
+.header_lens{
+    display: inline-block;
+    width: 25px;             
+    margin-left: 10px;
+}
+.burger_menu{
+    font-size: 28px;
+    text-align: right;
+}
+.burger_menu i{
+    padding: 6px 8px;
+    border: 1px solid gray; /* burger menu border */
+    border-radius: 5px;
+}
+/* END HEADER */
+
+
+
+
+
+/* MAIN */
+
+
+
