@@ -1,4 +1,7 @@
 /* COMMON */
+body{
+    font-family: Arial, sans-serif;
+}
 img{
     width: 100%;
     display: block;
@@ -11,13 +14,27 @@ ul{
 a{
     text-decoration: none;
 }
+
+/* Containers */
+.ms_forty_container{
+    width: 40%;
+}
+
 /* Texts */
+.white_text{
+    color: white;
+}
 .font_17{
     font-size: 17px;
+}
+.font_45{
+    font-size: 45px;
 }
 .light_bold_text{
     font-weight: 600;
 }
+
+
 
 
 
@@ -29,9 +46,11 @@ header{
 /* Header Top */
 .header_top{
     background-color: black;  
-    padding: 10px;
+    height: 30px;
+    line-height: 30px;
 }
 .sony_logo{
+    display: inline-block;
     margin-left: calc(100% - 100px);
     width: 100px;
 }
@@ -103,6 +122,33 @@ header{
 
 
 /* MAIN */
-
-
+main{
+    margin-top: 110px;
+}
+/* Top Jumbotron */
+.top_jumbotron{
+    background-image: url("../img/jumbo-bg.png");   
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top_jumbotron .ms_forty_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 650px;
+}
+.top_jumbotron .ms_forty_container img{
+    width: 60%;
+}
+.top_jumbotron .ms_forty_container *{
+    margin-bottom: 20px;
+}
+.ms_btn_orange{
+    color: white;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    border-radius: 20px;
+}
 
