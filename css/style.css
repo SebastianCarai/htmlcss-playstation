@@ -261,7 +261,30 @@ main{
     color: #3066e6;
 }
 
+/* Discounts PS Store */
 .discounts_container{
     padding: 50px 0;
     text-align: center;
+}
+
+/* PS Now */
+.ps_now{
+    background-color: #161c3b;
+}
+.ps_now_text img{
+    width: 50%;
+}
+.ps_now_btn{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+/* Socials */
+.socials{
+    padding: 50px 0;
+}
+.social_icon{
+    margin: 20px 0;
+    max-width: 300px;
 }
