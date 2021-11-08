@@ -30,11 +30,17 @@ a{
 .gray_text{
     color: #727272;
 }
+.font_13{
+    font-size: 13px;
+}
 .font_15{
     font-size: 15px;
 }
 .font_17{
     font-size: 17px;
+}
+.font_18{
+    font-size: 18px;
 }
 .font_20{
     font-size: 20px;
@@ -83,8 +89,7 @@ header{
 }
 .ps_logo img{
     margin:auto;
-    width: auto; 
-    height: 70px;
+    width: 70px;
 }
 .header_bottom li{
     display: inline-block;
@@ -286,5 +291,25 @@ main{
 }
 .social_icon{
     margin: 20px 0;
-    max-width: 300px;
+    max-width: 300px; /*Icons properties */
 }
+/* END MAIN */
+
+
+
+
+
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    padding: 50px 0;
+}
+.footer_copyright img{
+    width: 150px;
+}
+@media screen and (min-width:992px) {
+    .footer_copyright{
+        width: 50%;
+    }
+}
+/* END FOOTER */
